@@ -7,7 +7,7 @@ from pymongo import MongoClient
 
 # Load environment variables from .env file
 load_dotenv()
-MONGODB_URI = os.environ['MONGODB_URI']
+MONGODB_URI = os.environ["MONGODB_URI"]
 
 client = MongoClient(MONGODB_URI)
 

@@ -1,2 +1,2 @@
-if __name__ == 'main':
-    print('start app')
+if __name__ == "main":
+    print("start app")

@@ -19,4 +19,6 @@ except errors.ConfigurationError as e:
 except errors.OperationFailure as e:
     logger.error(e)
 except errors.ServerSelectionTimeoutError:
-    logger.error("Cluster not reachable. Please check your network connection and IP whitelisting")
+    logger.error(
+        "Cluster not reachable. Please check your network connection and IP whitelisting"
+    )
